@@ -1,12 +1,17 @@
 function Navbar() {
   return (
-    <nav>
-      <a href="#Home">Home</a>
-      <a href="#About">About</a>
-      <a href="#Process">Process</a>
-      <a href="#Projects">Projects</a>
-      <a href="#Identity">Identity</a>
-      <a href="#Contact">Contact</a>
+    <nav className="navbar">
+      <a href="#home" className="navbar-logo">
+        PJAG
+      </a>
+
+      <div className="navbar-links">
+        <a href="#about">About</a>
+        <a href="#process">Process</a>
+        <a href="#projects">Projects</a>
+        <a href="#identity">Identity</a>
+        <a href="#contact">Contact</a>
+      </div>
     </nav>
   );
 }

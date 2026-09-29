@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Home from "./components/Home";
 import About from "./components/About";
 import Process from "./components/Process";
 import Projects from "./components/Projects";
@@ -14,11 +15,13 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <Home />
       <About /> 
       <Process />
       <Projects />
       <Identity />
       <Contact />
+    
     </>
   );
 }

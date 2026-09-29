@@ -1,7 +1,7 @@
 function Projects() {
   return (
-    <section>
-      <h1>Designing intuitive digital systems - test.</h1>
+    <section id="projects">
+      <h2>Selected Projects</h2>
     </section>
   );
 }
