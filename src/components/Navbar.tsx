@@ -1,12 +1,12 @@
 function Navbar() {
   return (
     <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#process">Process</a>
-      <a href="#projects">Projects</a>
-      <a href="#identity">Identity</a>
-      <a href="#contact">Contact</a>
+      <a href="#Home">Home</a>
+      <a href="#About">About</a>
+      <a href="#Process">Process</a>
+      <a href="#Projects">Projects</a>
+      <a href="#Identity">Identity</a>
+      <a href="#Contact">Contact</a>
     </nav>
   );
 }
