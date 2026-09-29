@@ -1,7 +1,11 @@
 function Contact() {
   return (
-    <section>
-      <h1>Designing intuitive digital systems - test.</h1>
+    <section id="contact">
+      <h1>Contact</h1>
+     
+         <p>
+        Feel free to reach out to me at any time!
+         </p>
     </section>
   );
 }
