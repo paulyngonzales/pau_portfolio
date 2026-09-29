@@ -1,7 +1,12 @@
-
 import Navbar from "./components/Navbar";
-import './App.css'
 import Hero from "./components/Hero";
+import About from "./components/About";
+import Process from "./components/Process";
+import Projects from "./components/Projects";
+import Identity from "./components/Identity";
+import Contact from "./components/Contact";
+import './App.css'
+
 
 
 function App() {
@@ -9,6 +14,11 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <About /> 
+      <Process />
+      <Projects />
+      <Identity />
+      <Contact />
     </>
   );
 }
